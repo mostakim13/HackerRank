@@ -1,0 +1,4 @@
+i = int(input());
+for j in range(i):
+    s = str(input());
+    print(s[0::2], s[1::2]);
